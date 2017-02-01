@@ -19,8 +19,49 @@ Karma growing curve. Karma can decay depending on time, but it can be gamed by p
 ###### terms 
 ###### problems to solve
 
+Second season of hack.ether.camp was using the links to social accounts as primary prove of identity. Using the platforms like microworkers.com camp owners could create bot-like voting accounts for 0.5-1 USD each. Let's take that we need sybil cloud size larger then than half of honest voting community.
+If we will require more sophisticated proof of identity and the price will increase up to 10 USD, attacker will need to pay around 1500 USD to perform his attack.
+We need to determine if sybil attack price is high enough.
+
+##### Content posting and upvoting rewards
+/** TODO */
 
 
+##### Karma gain system
+
+Statuses:
+1. Newcomer, karma 0-99, max gain daily 20.
+2. Voter, karma 100-5000, can vote for the projects and content, max gain daily 100.
+3. Elder, karma >5000, can also downvote content or even punish the untrustful users. Karma >5000 cannot affect your project voting power, it's only applyable to content moderation.
+
+Every normal person starts with 0 karma. It should be quite hard to get a voter status, because newcomers cannot harm the system badly. They only can create a number of spam posts which can be easily hidden by user. 
+There should be some automated spam filter which can be optionally enabled by any user. 
+**Should there be a mechanism of automated massive downvote of spammers gang?
+
+To get karma you have to get at least 2 upvotes. 
+Karma gain formula: **(voter karma) / 25**
+
+There can be activity coefficient which will reward constantly high activity, like +2% to karma if there were upvoted content in the last days, up to 10%, or decrease up to 10% if there was no activity in last 5 days.
+
+Social accont link can be some prove of your identity, so it will give you **+5%** to karma grow per each linked account with more than 100 followers.
+
+After 3 days in a row of upvoting specific person by another specific person there should be cooldown for 1 or 2 days. So one user cannot be upvoted too much by single voter or even elder. 
+
+
+Karma growth can be boosted during the first weeks or months after the system launch to help the community grow more intensively.
+
+**Hide button**
+If voter considers that some content is spam or offensive, he can press 'Hide' button, so he will not see this comment or post in the future. After getting *(voters karma) / 25 == 100* the author of content gets a cooldown for karma acquiring for 1 day. (Effect can be worse if he will get more 'spam' flags).
+
+**Should there be overall karma daily limit? Can there be some attack on it if many bots drain all the daily karma?
+
+
+
+
+
+
+##### Notes on technical implementation
+Speaking of implementation of this system it looks that best option will be pluggable contracts system. All the karma gain rules and coefficients should be stored in separate smart contract. System should be changeable by proposals which can be accepted or declined by community.
 
 
 ***
