@@ -40,11 +40,11 @@ Also, most of the votes for the top camps were given by users which were registe
 ##### Karma gain system
 
 Statuses:
-1. Newcomer, karma 0-99, max gain daily 20.
-2. Voter, karma 100-5000, can vote for the projects and content, max gain daily 100.
-3. Elder, karma >5000, can also downvote content or even punish the untrustful users. Karma >5000 cannot affect your project voting power, it's only applyable to content moderation.
+- 1. Newcomer, karma 0-99, max gain daily 20.
+- 2. Voter, karma 100-5000, can vote for the projects and content, max gain daily 100.
+- 3. Elder, karma >5000, can also downvote content or even punish the untrustful users. Karma >5000 cannot affect your project voting power, it's only applyable to content moderation.
 
-***Should there be a daily upvote limit which can be done by particular user?
+*Should there be a daily upvote limit which can be done by particular user?
 
 Every normal person starts with 0 karma. It should be quite hard to get a voter status, because newcomers cannot harm the system badly. They only can create a number of spam posts which can be easily hidden by other users. 
 There should be some automated spam filter which can be optionally enabled by any user to hide
@@ -52,7 +52,7 @@ There should be some automated spam filter which can be optionally enabled by an
 
 `Karma gain formula: (voter karma) / 25`
 
-***Main problem here: any voter can decide to start growing an army of sybils, because he has a right to upvote. He cannot vote for himself, but he needs the reasons to give votes fairly and not to his sybils
+*Main problem here: any voter can decide to start growing an army of sybils, because he has a right to upvote. He cannot vote for himself, but he needs the reasons to give votes fairly and not to his sybils
 
 There are some ways to prevent sybil attacks in this scheme. 
 
