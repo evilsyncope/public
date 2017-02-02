@@ -90,29 +90,6 @@ Project reviews suppose to be a mechanism which will help to accumulate initial 
 ##### Notes on technical implementation
 Speaking of implementation of this system it looks that best option will be pluggable contracts system. All the karma and kudos gain coefficients should be stored in separate structures. System should be changeable by submitting proposals which can be accepted or declined by the community. Approved proposal will be inserted in an array of proposals. Proporsal can be removed from an array by similiar procedure.
 
+**External tools**
 
-***
-
-Last discussion to organize: 
-
-1. Project reviers - content that is valuable and hard to fake
-2. Deposit HKG as source of potentical to get karma
-3. Grow of the carma is by X^2 formula where X is your deposit - makes it better to develop 1 account
-   a. Should we constrain the maximal value?
-   b. Will the karma be valuable as representation of user's social activity in reviewing and creating good content? It can became a sort of oligarchy where voice of users with more HKG is much more powerful.
-4. The quality of content is validated by projects (we can call it - reveiw recognision)
-   a. projects care about their reputation - will not publicly promote bad reviews 
-   b. how to prevent fake projects to submit? - possilbe that by approving project submissions.
-   c. When it's time to review the project? At the start when there is no commits or any other useful activity, fake project can look like normal one.
-   
-   
---------
-1. Project reviwers - content that is valuable and hard to fake
-   a. Can be not so hard, because most maleficient camp was looking normal before the voting bots attack started.
-3. Grow of the carma is by X^2 formula where X is your deposit - makes it better to develop 1 account
-   a. Should we constrain the maximal value?
-   b. Will the karma be valuable as representation of user's social activity in reviewing and creating good content? It can became a sort of oligarchy where voice of users with more HKG is much more powerful.
-   c. Formula should be proven by some facts, like how much it will cost to create a bots.
-   d. What if such user can be bribed? He can receive some money for himself and for the deposit.
-4. The quality of content is validated by projects (we can call it - reveiw recognision)
-   c. When it's time to review the project? At the start when there is no commits or any other useful activity, fake project can look like normal one.
+All contract data is open, so any user is able to analyze the interactions between actors. External social graph analyzing tool can be a good help for an ordinary user who wants to see if there are exist evidences of unfair interaction. E.g. user can see if there are sybil clusters and who is a owner of this cluster. None of this tools can be a automated judge which changes some user karma, but it may advise to do so. 
