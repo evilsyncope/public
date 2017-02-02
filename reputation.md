@@ -15,10 +15,10 @@ Also, every user, maybe after some preconditions, should be able to review proje
    -	Allowance to vote to users who are affilated with some project or content author. How to distinguish opinion from biased vote?
    -	More sophisticated sybil-attack, where sybils are reposting good comments or posts
    
-###### structuref
-Prove of identity by depositing some currency.-
-Amount of deposit.
-Karma growing curve. Karma can decay depending on time, but it can be gamed by posting some good content in moments when you need your karma. If karma growth slows after some point it will be better to create another actor with pseudonyme, so growth should be linear.
+###### structure
+- Ways to prove an identity.
+- Karma growing curve.
+
 
 ###### terms 
 *describe each*
@@ -34,6 +34,9 @@ Karma growing curve. Karma can decay depending on time, but it can be gamed by p
 Second season of hack.ether.camp was using the links to social accounts as primary prove of identity. Using the platforms like microworkers.com camp owners could create bot-like voting accounts for 0.5-1 USD each. Let's take that we need sybil cloud size larger then than half of honest voting community.
 If we will require more sophisticated proof of identity and the price will increase up to 10 USD, attacker will need to pay around 1500 USD to perform his attack.
 We need to determine if sybil attack price is high enough.
+
+Also, most of the votes for the top camps were given by users which were registered at less then one day before vote. Obviously, most of them were affilated with project in some way. Such way of voting helps to win heavily promoted camps which are not always the best. So, we need to put some barrier for the newcomers. They have to prove their potential value for the community before receiving voting rights.
+
 
 ##### Content posting and upvoting rewards
 
