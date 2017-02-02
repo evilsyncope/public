@@ -50,9 +50,9 @@ Every normal person starts with 0 karma. It should be quite hard to get a voter 
 There should be some automated spam filter which can be optionally enabled by any user to hide
 *Should there be a mechanism of automated massive downvote of spammers gang?
 
-Karma gain formula: **(voter karma) / 25
+`Karma gain formula: (voter karma) / 25`
 
-** Main problem here: any voter can decide to start growing an army of sybils, because he has a right to upvote. He cannot vote for himself, but he needs the reasons to give votes fairly and not to his sybils
+***Main problem here: any voter can decide to start growing an army of sybils, because he has a right to upvote. He cannot vote for himself, but he needs the reasons to give votes fairly and not to his sybils
 
 There are some ways to prevent sybil attacks in this scheme. 
 
@@ -76,7 +76,7 @@ Additional options:
 Deposit can be another way to prevent sybil entities creation.
 E.g. math can be:
 
-karma +=   karmaGain * 2^a
+`karma +=   karmaGain * 2^a`
 
 while the 2^a depends on HKG you deposit
 
@@ -101,7 +101,7 @@ Voters are gas payers. When user becames voter he receives some Ether to cast, f
 
 Kudos amount is a linear function from karma.
 
-*kudos = karma / 10
+`kudos = karma / 10`
 
 ##### Project reviews
 Every user can write a review to any published project. Any owner of this project can approve the review and make it visible to other community members (*should the review be hidden before the approve or there should be another tab for unapproved reviews?*). An author of the review receives some fixed amount of karma in the case of approve. It can be max daily amount for a newcomer, 20 karma.
@@ -110,11 +110,6 @@ All the reviews can recieve normal votes from the community after the approval l
 Project reviews suppose to be a mechanism which will help to accumulate initial karma value by community new members. 
 
 **Should there be overall karma daily limit? Can there be some attack on it if many bots drain all the daily karma?
-
-
-
-
-
 
 ##### Notes on technical implementation
 Speaking of implementation of this system it looks that best option will be pluggable contracts system. All the karma and kudos gain coefficients should be stored in separate structures. System should be changeable by submitting proposals which can be accepted or declined by the community. Approved proposal will be inserted in an array of proposals. Proporsal can be removed from an array by similiar procedure.
