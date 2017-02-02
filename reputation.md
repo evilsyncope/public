@@ -15,19 +15,19 @@ Also, every user, maybe after some preconditions, should be able to review proje
    -	Allowance to vote to users who are affilated with some project or content author. How to distinguish opinion from biased vote?
    -	More sophisticated sybil-attack, where sybils are reposting good comments or posts
    
-###### structure
-Prove of identity by depositing some currency.
+###### structuref
+Prove of identity by depositing some currency.-
 Amount of deposit.
 Karma growing curve. Karma can decay depending on time, but it can be gamed by posting some good content in moments when you need your karma. If karma growth slows after some point it will be better to create another actor with pseudonyme, so growth should be linear.
 
 ###### terms 
 *describe each*
 
-Project (camp)
-User
-Karma
-Vote
-Kudos
+- Project (camp)
+- User
+- Karma
+- Vote
+- Kudos
 
 ###### problems to solve
 
