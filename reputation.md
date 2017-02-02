@@ -48,11 +48,11 @@ Statuses:
 
 Every normal person starts with 0 karma. It should be quite hard to get a voter status, because newcomers cannot harm the system badly. They only can create a number of spam posts which can be easily hidden by other users. 
 There should be some automated spam filter which can be optionally enabled by any user to hide
-**Should there be a mechanism of automated massive downvote of spammers gang?
+*Should there be a mechanism of automated massive downvote of spammers gang?
 
 Karma gain formula: **(voter karma) / 25
 
-## Main problem here: any voter can decide to start growing an army of sybils, because he has a right to upvote. He cannot vote for himself, but he needs the reasons to give votes fairly and not to his sybils.
+** Main problem here: any voter can decide to start growing an army of sybils, because he has a right to upvote. He cannot vote for himself, but he needs the reasons to give votes fairly and not to his sybils
 
 There are some ways to prevent sybil attacks in this scheme. 
 
@@ -71,21 +71,19 @@ Additional options:
 
 **HKG deposit*
 
-## need to be double checked, because boosting karma growth by deposit could help sybils creation in some circumstances
+# need to be double checked, because boosting karma growth by deposit could help sybils creation in some circumstances
 
 Deposit can be another way to prevent sybil entities creation.
 E.g. math can be:
 
 karma +=   karmaGain * 2^a
 
-    ....
+while the 2^a depends on HKG you deposit
 
- while the 2^a depends on HKG you deposit
-
- 50,000HKG => a = 2
- 100,000HKG => a=3
- 200,000HKG => a=4
- 1M  => a=5
+- 50,000HKG => a = 2
+- 100,000HKG => a=3
+- 200,000HKG => a=4
+- 1M  => a=5
 
 **Hide button*
 
@@ -93,7 +91,7 @@ If voter considers that some content is spam or offensive, he can press 'Hide' b
 
 ##### Content posting and upvoting rewards
 
-Good content should be rewarded. For every 10 upvotes
+Good content should be rewarded. For every 10 upvotes user receives 1 HKG to his address.
 
 ##### Gas payers
 
